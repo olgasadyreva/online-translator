@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>JavaScript</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Переводчик on-line</h1>
+    
+    <label class="label">Введите слово для перевода:
+      <input class="text-input" type="text" />
+    </label>
+
+    <div class="select-wrap">
+      <label class="label">Перевести с:
+        <select class="source-language" name="language">
+          <option value="en" selected>Английский</option> 
+          <option value="fr">Французский</option>
+          <option value="de">Немецкий</option>
+          <option value="it">Итальянский</option>
+          <option value="is">Испанский</option>
+          <option value="ru">Русский</option>
+        </select>
+      </label>
+
+      <label class="label">Перевод на:
+        <select class="final-language" name="language">
+          <option value="en">Английский</option> 
+          <option value="fr">Французский</option>
+          <option value="de">Немецкий</option>
+          <option value="it">Итальянский</option>
+          <option value="is">Испанский</option>
+          <option value="ru"  selected>Русский</option>
+        </select>
+      </label> 
+    </div>    
+
+    <button class="btn-translate" type="submit">Перевести</button>
+
+    <div class="translate">
+    </div> 
+  </div>  
+
+<script src="js/script.js" defer></script> 
+</body>
+</html>
